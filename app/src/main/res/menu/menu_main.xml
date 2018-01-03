@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.bloomu.sjh91055.finalproj.MainActivity">
+
+    <item
+        android:id="@+id/new_setting"
+        android:onClick="newDoodle"
+        android:orderInCategory="1"
+        android:title="@string/new_setting" />
+
+    <item
+        android:id="@+id/onion_setting"
+        android:onClick="toggleOnion"
+        android:orderInCategory="11"
+        android:title="@string/toggle_onion" />
+
+    <item
+        android:id="@+id/frame_duplicate"
+        android:onClick="duplicateFrame"
+        android:orderInCategory="15"
+        android:title="@string/duplicate_frame" />
+
+    <item
+        android:id="@+id/frame_clear"
+        android:onClick="clearFrame"
+        android:orderInCategory="17"
+        android:title="@string/erase_frame" />
+
+    <item
+        android:id="@+id/save_video"
+        android:onClick="saveVideo"
+        android:orderInCategory="20"
+        android:title="@string/save_video_setting" />
+</menu>

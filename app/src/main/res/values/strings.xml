@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Flip Book</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <string name="add_frame_button">New Frame</string>
+    <string name="play_button">Play</string>
+
+    <string name="new_setting">New</string>
+    <string name="background_setting">Set Background</string>
+    <string name="toggle_onion">Toggle Overlay</string>
+    <string name="save_video_setting">Export Video</string>
+    <string name="duplicate_frame">Duplicate Frame</string>
+    <string name="erase_frame">Clear Frame</string>
+
+</resources>
